@@ -5,8 +5,8 @@ Entendemos commit como una **operación que guarda los cambios realizados en un 
 ## Paso 1: Elegir el tipo del commit
 Empezar el mensaje con un tipo que refleje la naturaleza del cambio:
 
-| Etiqueta   | Descripción                                                  | 
-| :---       | :---                                                         | 
+| Etiqueta   | Descripción                                                  |
+| :---       | :---                                                         |
 | `feat`     | Añadir una nueva funcionalidad.                              |
 | `fix`      |  Corregir un error.                                          |
 | `docs`     | Actualizar documentación.                                    |
@@ -33,16 +33,27 @@ Empezar el mensaje con un tipo que refleje la naturaleza del cambio:
 ## Paso 2: Especificar un alcance (opcional)
 El alcance aclara la zona afectada del proyecto.
 
-### Ejemplos:
-
-| Etiqueta   | Descripción                     | 
-| :---       | :---                            | 
+| Etiqueta   | Descripción                     |
+| :---       | :---                            |
 | `auth`     | Autenticación y autorización.   |
 | `ui`       | Interfaz de usuario.            |
 | `api`      | API de backend o frontend.      |
-| `core`     | Funciones básicas.              | 
+| `core`     | Funciones básicas.              |
 | `config`   | Archivos de configuración.      |
 | `deps`     | Actualizaciones de dependencia. |
 | `tests`    | Pruebas.                        |
 | `docs`     | Documentación.                  |
 | `db`       | Cambios en la base de datos.    |
+
+### Ejemplos:
+
+- docs(readme): add installation instructions
+- feat(auth): add MFA (multi-factor authentication) support
+- fix(ui): correct mobile menu overflow bug
+- refactor(api): migrate user endpoints to GraphQL
+- perf(db): optimize slow SQL queries in reports module
+- test(e2e): add Cypress tests for checkout flow
+- build(docker): update Alpine base image to v3.18
+- ci(pipelines): add SonarQube analysis step
+- chore(lint): enforce new ESLint rules
+- revert(ci): rollback broken deployment script
