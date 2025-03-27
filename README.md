@@ -28,3 +28,21 @@ Empezar el mensaje con un tipo que refleje la naturaleza del cambio:
 - test: add unit tests for new features
 - build: update build script to use latest dependencies
 - chore: update project dependencies to latest versions
+
+
+## Paso 2: Especificar un alcance (opcional)
+El alcance aclara la zona afectada del proyecto.
+
+### Ejemplos:
+
+| Etiqueta   | Descripción                     | 
+| :---       | :---                            | 
+| `auth`     | Autenticación y autorización.   |
+| `ui`       | Interfaz de usuario.            |
+| `api`      | API de backend o frontend.      |
+| `core`     | Funciones básicas.              | 
+| `config`   | Archivos de configuración.      |
+| `deps`     | Actualizaciones de dependencia. |
+| `tests`    | Pruebas.                        |
+| `docs`     | Documentación.                  |
+| `db`       | Cambios en la base de datos.    |
