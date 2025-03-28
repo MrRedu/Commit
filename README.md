@@ -67,3 +67,22 @@ La descripción debe ser breve y clara.
 - feat(i18n): `add Spanish language support`
 - perf: `reduce API response time with caching`
 - security: `patch SQL injection vulnerability`
+
+## Paso 4: Añadir detalles (opcional)
+
+Proporciona contexto adicional si es necesario:
+
+- ¿Qué se ha cambiado?
+- ¿Por qué se cambió??
+- Cualquier información adicional
+  
+### Ejemplo:
+
+> fix(ui): fix button display issue <br>
+> Ensure proper button rendering on low-resolution screens.
+
+En este caso nos preguntamos, ¿cómo podríamos hacer añadirle descripción (detalles) a nuestros commits?
+
+```bash
+git commit -m "fix(ui): fix button display issue" -m "Ensure proper button rendering on low-resolution screens."
+```
