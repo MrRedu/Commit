@@ -20,14 +20,14 @@ Empezar el mensaje con un tipo que refleje la naturaleza del cambio:
 | `revert`   | Revertir un commit anterior.                                 |
 
 ### Ejemplos: 
-- fix: fix token validation issue
-- feat: add support for dark mode
-- docs: update API documentation
-- refactor: simplify database query logic
-- perf: optimize image loading performance
-- test: add unit tests for new features
-- build: update build script to use latest dependencies
-- chore: update project dependencies to latest versions
+- `fix`: fix token validation issue
+- `feat`: add support for dark mode
+- `docs`: update API documentation
+- `refactor`: simplify database query logic
+- `perf`: optimize image loading performance
+- `test`: add unit tests for new features
+- `build`: update build script to use latest dependencies
+- `chore`: update project dependencies to latest versions
 
 
 ## Paso 2: Especificar un alcance (opcional)
@@ -47,23 +47,23 @@ El alcance aclara la zona afectada del proyecto.
 
 ### Ejemplos:
 
-- docs(readme): add installation instructions
-- feat(auth): add MFA (multi-factor authentication) support
-- fix(ui): correct mobile menu overflow bug
-- refactor(api): migrate user endpoints to GraphQL
+- docs`(readme)`: add installation instructions
+- feat`(auth)`: add MFA (multi-factor authentication) support
+- fix`(ui)`: correct mobile menu overflow bug
+- refactor`(api)`: migrate user endpoints to GraphQL
 
 ## Paso 3: Escribir una descripción breve
 La descripción debe ser breve y clara.
 
 ### Ejemplos:
 
-- auth: implement JWT token validation
-- db: fix connection timeout issue
-- config: add environment variables for staging
-- feat: add dark mode toggle component
-- refactor: clean up legacy payment code
-- ci: set up GitHub Actions for automated testing
-- fix: resolve memory leak in data processing
-- i18n: add Spanish language support
-- perf: reduce API response time with caching
-- security: patch SQL injection vulnerability
+- auth: `implement JWT token validation`
+- fix(db): `fix connection timeout issue`
+- config: `add environment variables for staging`
+- feat: `add dark mode toggle component`
+- refactor: `clean up legacy payment code`
+- ci: `set up GitHub Actions for automated testing`
+- fix: `resolve memory leak in data processing`
+- feat(i18n): `add Spanish language support`
+- perf: `reduce API response time with caching`
+- security: `patch SQL injection vulnerability`
