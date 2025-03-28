@@ -1,6 +1,6 @@
 # Hoja de referencia: Conventional Commits
 
-Entendemos commit como una **operación que guarda los cambios realizados en un repositorio.** Piénsalo como una "instantánea/screenshot" del estado de un proyecto en un momento determinado. Cada commit **registra los cambios que se han hecho en los archivos,** junto con un mensaje que describe qué se ha modificado y por qué.
+Entendemos commit como una **operación que guarda los cambios realizados en un repositorio.** Hay que pensarlo como una "instantánea/screenshot" del estado de un proyecto en un momento determinado. Cada commit **registra los cambios que se han hecho en los archivos,** junto con un mensaje que describe qué se ha modificado y por qué.
 
 ## Paso 1: Elegir el tipo del commit
 Empezar el mensaje con un tipo que refleje la naturaleza del cambio:
@@ -51,9 +51,19 @@ El alcance aclara la zona afectada del proyecto.
 - feat(auth): add MFA (multi-factor authentication) support
 - fix(ui): correct mobile menu overflow bug
 - refactor(api): migrate user endpoints to GraphQL
-- perf(db): optimize slow SQL queries in reports module
-- test(e2e): add Cypress tests for checkout flow
-- build(docker): update Alpine base image to v3.18
-- ci(pipelines): add SonarQube analysis step
-- chore(lint): enforce new ESLint rules
-- revert(ci): rollback broken deployment script
+
+## Paso 3: Escribir una descripción breve
+La descripción debe ser breve y clara.
+
+### Ejemplos:
+
+- auth: implement JWT token validation
+- db: fix connection timeout issue
+- config: add environment variables for staging
+- feat: add dark mode toggle component
+- refactor: clean up legacy payment code
+- ci: set up GitHub Actions for automated testing
+- fix: resolve memory leak in data processing
+- i18n: add Spanish language support
+- perf: reduce API response time with caching
+- security: patch SQL injection vulnerability
