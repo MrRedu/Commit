@@ -73,7 +73,7 @@ La descripción debe ser breve y clara.
 
 ## Paso 4: Añadir detalles (opcional)
 
-Proporciona contexto adicional si es necesario:
+Se proporciona contexto adicional si es necesario:
 
 - ¿**Qué** se ha cambiado?
 - ¿**Por qué** se cambió??
