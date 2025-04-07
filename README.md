@@ -71,9 +71,9 @@ La descripción debe ser breve y clara.
 - perf: `reduce API response time with caching`
 - security: `patch SQL injection vulnerability`
 
-## Paso 4: Añadir detalles (opcional)
+## Paso 4: Añadir detalles _(opcional)_
 
-Se proporciona contexto adicional si es necesario:
+Proporciona contexto adicional si es necesario:
 
 - ¿**Qué** se ha cambiado?
 - ¿**Por qué** se cambió??
